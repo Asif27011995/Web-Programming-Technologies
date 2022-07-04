@@ -1,0 +1,25 @@
+
+1)Write a JavaScript program to print day of a week using switch statement.
+
+2) Write a JavaScript program to print number from 1 to 100 with incremental
+value of 2 using while loop and for loop
+
+3) Write a JavaScript program to create an array with 5 elements and make a copy
+of the original array with elements from 2nd index to 4th index;
+
+4) Write a JavaScript program to create an asynchronous function using Promise
+object;
+
+5) Write a JavaScript program to create an asynchronous function using
+setInterval method;
+
+6) Write a JavaScript program to create an object using Object.create method.
+
+7) Write a JavaScript program to create an object and add a property using
+either accessor descriptor or data descriptor.
+
+8) Write a JavaScript program to demonstrate immediately invokable function.
+
+9)Write a JavaScript program to sort a list of elements by implementing a sorting algorithm.
+
+10)Write a JavaScript program to list the properties of a JavaScript object
