@@ -1,0 +1,3 @@
+1.Create a page showing live score/feed using Ajax and JSON from a live sport/news service endpoint given by the faculty.
+2. Write a JavaScript program to create a closure function.
+3. Write a JavaScript program to list the properties of a JavaScript object.
