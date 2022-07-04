@@ -1,0 +1,9 @@
+1.Write a JavaScript function to get First and Last name from the previously created Resume 
+form
+2. Validate the entire Resume form using client-side JavaScript.
+3.Write a jQuery program to get a single element from a selection of elements of a HTML page.
+4. You are having sample data for the link. Write jQuery code to change the hyperlink and the 
+text of an existing link.
+5. Write a jQuery program to attach a click and double-click events to all <p> elements. 
+6.Write a jQuery program to hide all headings on a page when they are clicked.
+o Also find the position of the mouse pointer relative to the left and top edges of the document
