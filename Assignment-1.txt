@@ -1,0 +1,5 @@
+
+1. Create a Loan calculator app that takes inputs from the user and displays the interest amount, the principal amount and other details. 
+2. Create a Temperature conversion Program that takes inputs of a certain unit of temperature and convert it into other unit.Cel vs. Farenheit. 
+3. Create a Shoping basket app that takes inputs from the user on the items he/she will purchase and display them in the form an ordered List inside a div element. 
+4. Create a Data Entry Page that takes inputs of the Customer like his name, address, telephone and it should display the details into a table as a single roww. All customers info will be added as seperate rows. Each row will contain one customer information. 
