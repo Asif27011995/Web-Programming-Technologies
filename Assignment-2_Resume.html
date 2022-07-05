@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form</title>
+</head>
+<body>
+    <h1>Make a Resume</h1><hr><br>
+    <form>
+    <P><b>Enter Name:</b><input type="text" placeholder="Name please!" required/></P>
+    <P><b>Enter Email Id:</b><input type="email" placeholder="Email deails"/></P>
+    <p><b>Enter your complete Address:</b><textarea rows="5" cols="25"></textarea></p>
+    <P><b>Enter DOB:</b><input type="date" placeholder="Enter your DOB"/></P>
+    <P><b>Enter Highschool percentage:</b><input type="number" placeholder="percentage"/></P>
+    <p><b>Select your graduation stream:</b>
+        <input type="text" list="myStream" placeholder="Select">
+        <datalist id="myStream">
+            <option>Civil Engineering</option>
+            <option>Mechanical Engineering</option>
+            <option>Electrical Engineering</option>
+            <option>Automobile Engineering</option>
+            <option>Chemical Engineering</option>
+            <option>Computer Engineering</option>
+            <option>Information Technolgy</option>
+            <option>Textile Engineering</option>
+            <option>Entc Engineering</option>
+        </datalist>
+       </p>
+    <P><b>Enter year of passing:</b><input type="year" placeholder="Enter your passing year"/></P>
+    <p><b>select your gender:</b>
+            <input type="radio" name="gender"/>Male
+            <input type="radio" name="gender"/>Female
+            <input type="radio" name="gender"/>Others
+    </p>
+    <p><b>Enter your skills: <textarea rows="3" cols="15"></textarea></b></p>
+    <P><b>Enter the prefered job location:</b><input type="text" placeholder="Enter Location" required/></P>
+    <p><b>Upload your passport size photo:</b></p>
+            <p><input type="file" placeholder="Select the file"><button type="submit">Submit</button></p>
+    <button type="submit">Save Changes</button>
+    <button type="reset">Reset</button>
+</form>
+</body>
+</html>
