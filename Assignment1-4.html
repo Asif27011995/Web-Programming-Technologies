@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./a1-4.js"></script>
+    <script>
+      let $get = (elementId) => document.getElementById(elementId).value;
+      let $set = (id, value) => (document.getElementById(id).value = value);
+      let $clear = (id) => $set(id, "");
+      function clearInputs() {
+        $clear("id");
+        $clear("name");
+        $clear("address");
+        $clear("telephone");
+      }
+
+      function onSave() {
+        let id = $get("id");
+        let name = $get("name");
+        let address = $get("address");
+        let telephone = $get("telephone");
+
+        let ex1 = new Customer(id, name, address, telephone);
+        document.getElementById("table").innerHTML += ex1.toStringFormat();
+        clearInputs();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Data Entry Page</h1>
+    </div>
+    <div class="input-section">
+      <input type="number" placeholder="Enter id" id="id" />
+      <input type="text" placeholder="Enter Name" id="name" />
+      <input type="text" placeholder="Enter Address" id="address" />
+      <input type="number" placeholder="Enter telephone" id="telephone" />
+      <button type="button" onclick="onSave()">Save Changes</button>
+    </div>
+
+    <div>
+      <h2>Table for Customers</h2>
+      <table border="1" width="50%" id="table"></table>
+    </div>
+  </body>
+</html>

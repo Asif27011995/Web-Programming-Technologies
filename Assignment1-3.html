@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let basket = [];
+      function addtoBasket() {
+        let fruitName = document.getElementById("item").value;
+        basket.push(fruitName);
+        let p = document.getElementById("item-list");
+        p.innerHTML = "";
+        for (const value of basket) {
+          p.innerHTML += "<li>" + value + "</li>";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Shopping Basket App</h1>
+    </div>
+    <div class="form-container">
+      <p>
+        Item: <input id="item" type="text" placeholder="Enter the item" />
+        <button type="button" onclick="addtoBasket()">Purchase</button>
+      </p>
+      <div>
+        <ol
+          id="item-list"
+          style="height: 200px; width: 200px; background-color: lightcoral"
+        ></ol>
+      </div>
+    </div>
+  </body>
+</html>

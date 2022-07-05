@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function CelciusToFahrenheit() {
+        let celcius = document.getElementById("item").value;
+        let fahrenheit = celcius * (9 / 5) + 32;
+        let p = document.getElementById("item-list");
+        p.innerHTML = "<p> Fahrenheit: " + fahrenheit + "</p>";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Celcius to Fahrenheit Conversion</h1>
+    </div>
+    <div class="form-container">
+      <p>Enter Tempreture in Celcius</p>
+      <input id="item" type="text" placeholder="Enter here" />
+      <button type="button" onclick="CelciusToFahrenheit()">Submit</button>
+      <!-- <p>
+        Item: <input id="item" type="text" placeholder="Enter the name" />
+        <button type="button" onclick="addtoBasket()">Purchase</button>
+      </p> -->
+      <div>
+        <ol id="item-list"></ol>
+      </div>
+    </div>
+  </body>
+</html>
